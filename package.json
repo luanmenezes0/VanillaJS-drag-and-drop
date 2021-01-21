@@ -1,0 +1,29 @@
+{
+  "name": "vanilla-drag-and-drop",
+  "version": "1.0.0",
+  "description": "Vanilla js drag and drop app",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server",
+    "build:prod": "webpack --config webpack.config.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luanmenezes0/VanillaJS-drag-and-drop.git"
+  },
+  "author": "Luan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luanmenezes0/VanillaJS-drag-and-drop/issues"
+  },
+  "homepage": "https://github.com/luanmenezes0/VanillaJS-drag-and-drop#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^7.18.0",
+    "webpack": "4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
